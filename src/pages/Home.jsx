@@ -10,7 +10,7 @@ export default function Home() {
       color: '#000000ff',
       height: '100vh',
     }}>
-      <img src="/src/assets/Home-image.png" alt="White-whatsapp-home-image" style={{
+      <img src="/avatars/Home-Image.png" alt="..." style={{
         width: '30%',
         height: 'auto',
       }} />
