@@ -6,12 +6,14 @@
   background: #ffffff;
 }
 
+
 .main {
   flex: 1;
   display: flex;
   flex-direction: column;
   min-width: 0;
 }
+
 
 .chat-header {
   height: 68px;
@@ -35,64 +37,13 @@
   flex: 1;
 }
 
+
 .empty-chat {
   flex: 1;
   display: flex;
   justify-content: center;
   align-items: center;
   color: #555;
-}
-
-/* --- Responsive móvil tipo app para <= 767px --- */
-@media screen and (max-width: 767px) {
-  /* Ocultar barra lateral vertical */
-  .sidebar-vertical {
-    display: none !important;
-  }
-
-  /* Layout apilado */
-  .app-layout {
-    flex-direction: column;
-  }
-
-  /* Lista de chats ocupa todo */
-  .sidebar {
-    width: 100% !important;
-    height: 100%;
-    flex: 1;
-  }
-
-  /* Chat ocupa todo pero oculto por defecto */
-  .main {
-    width: 100% !important;
-    height: 100%;
-    flex: 1;
-    display: none;
-  }
-
-  /* Mostrar solo chat cuando esté abierto */
-  .app-layout.chat-open .sidebar {
-    display: none;
-  }
-  .app-layout.chat-open .main {
-    display: flex;
-    flex-direction: column;
-  }
-
-  /* Botón volver visible solo en móvil */
-  .chat-header .back-btn {
-    display: block;
-    cursor: pointer;
-    font-size: 20px;
-    margin-right: 10px;
-  }
-}
-
-/* Ocultar botón volver en pantallas grandes */
-@media screen and (min-width: 768px) {
-  .chat-header .back-btn {
-    display: none;
-  }
 }
 
 
