@@ -16,7 +16,7 @@ export const chats = [
   {
     id: '1',
     name: 'Mama',
-    avatar: 'https://i.pravatar.cc/150?img=20',
+    avatar: '../../../avatars/Mama.jpg',
     messages: [
       { from: 'me', text: 'Ma, te llevaste mis llaves?', time: '9:50 a. m.' },
       { from: 'them', text: 'Hola hijo, si.', time: '10:02 a. m.' },
@@ -27,7 +27,7 @@ export const chats = [
   {
     id: '2',
     name: 'Nico ✌',
-    avatar: 'https://i.pravatar.cc/150?img=12',
+    avatar: '../../../avatars/Nico.jpg',
     messages: [
       { from: 'them', text: 'Amigoo, f5 hoy. Estas?', time: '09:00 a. m.' },
       { from: 'me', text: 'que ondaa', time: '09:05 a. m.' },
@@ -67,7 +67,7 @@ export const chats = [
   {
       id: '5',
     name: 'Faustino 🥇',
-    avatar: 'https://i.pravatar.cc/150?img=12',
+    avatar: '../../../avatars/Faustino.jpg',
     messages: [
       { from: 'them', text: 'Holaa, el finde hacemos algo?', time: '15:50 p. m.' },
       { from: 'me', text: 'Hola fausti, si amigo dale!', time: '16:52 p. m.' },
@@ -88,7 +88,7 @@ export const chats = [
     {
     id: '6',
     name: 'Sergio Mecanico',
-    avatar: 'https://i.pravatar.cc/150?img=20',
+    avatar: 'https://tradesmanskills.com/wp-content/uploads/how-to-become-a-mechanic-1200x628.jpg',
     messages: [
       { from: 'me', text: 'Sergioo, como va??', time: '9:50 a. m.' },
       { from: 'me', text: 'Para cuando tengo el auto?', time: '9:51 a. m.' },
@@ -112,7 +112,7 @@ export const chats = [
     {
     id: '8',
     name: 'Vecino',
-    avatar: 'https://i.pravatar.cc/150?img=20',
+    avatar: '../../../avatars/VECINO-THIAGO.jpg',
     messages: [
       { from: 'me', text: 'Activaste la alarma de tu casa?', time: '21:01 p. m.' },
       { from: 'them', text: 'Si, esta noche me voy de viaje', time: '22:02 p. m.' },
