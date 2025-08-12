@@ -4,12 +4,12 @@ import ChatList from './components/ChatList/ChatList';
 import Chat from './pages/Chat';
 import Home from './pages/Home';
 import './css/App.css';
-import Sidebar from './components/Sidebar/SideBar'; 
+import Sidebar from './components/Sidebar/SideBar';
 
 function ChatLayout() {
   return (
     <div className="app-layout" style={{ display: "flex" }}>
-      <Sidebar />  
+      <Sidebar />
       <ChatList />
       <div style={{ flex: 1 }}>
         <Outlet />

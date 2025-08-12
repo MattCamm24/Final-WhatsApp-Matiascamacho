@@ -8,7 +8,6 @@ function Message({ from, text, time }) {
       <div className="bubble">
         <div className="bubble-text">{text}</div>
         <div className="bubble-time">{time}</div>
-        
       </div>
     </div>
   )

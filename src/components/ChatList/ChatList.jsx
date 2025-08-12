@@ -17,24 +17,24 @@ export default function ChatList() {
   return (
     <aside className="chat-list">
       <header className="chat-list-header">
-      <div className="header-title">WhatsApp</div>
+        <div className="header-title">WhatsApp</div>
         <div className="header-actions">
           <button className="header-action new-chat"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" className="bi bi-plus-circle-fill" viewBox="0 0 16 16">
-  <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0M8.5 4.5a.5.5 0 0 0-1 0v3h-3a.5.5 0 0 0 0 1h3v3a.5.5 0 0 0 1 0v-3h3a.5.5 0 0 0 0-1h-3z"/>
-</svg></button>
+            <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0M8.5 4.5a.5.5 0 0 0-1 0v3h-3a.5.5 0 0 0 0 1h3v3a.5.5 0 0 0 1 0v-3h3a.5.5 0 0 0 0-1h-3z" />
+          </svg></button>
           <button className="header-action menu-button"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" className="bi bi-three-dots-vertical" viewBox="0 0 16 16">
-  <path d="M9.5 13a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0m0-5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0m0-5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0"/>
-</svg></button>
+            <path d="M9.5 13a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0m0-5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0m0-5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0" />
+          </svg></button>
         </div>
       </header>
-        <input
-          className="search-input"
-          type="text"
-          placeholder="Buscar"
-          value={search}
-          onChange={e => setSearch(e.target.value)}
-        />
-      
+      <input
+        className="search-input"
+        type="text"
+        placeholder="Buscar"
+        value={search}
+        onChange={e => setSearch(e.target.value)}
+      />
+
 
       <div className="chat-list-items">
         {filteredChats.map(chat => (

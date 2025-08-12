@@ -1,18 +1,18 @@
 import React from 'react';
 export default function Home() {
   return (
-    <div style={{ 
-    height: '100vh', 
-    display: 'flex', 
-    flexDirection: 'column',
-    justifyContent: 'space-between',
-    alignItems: 'center',
-    color: '#000000ff',
-    height: '100vh',
+    <div style={{
+      height: '100vh',
+      display: 'flex',
+      flexDirection: 'column',
+      justifyContent: 'space-between',
+      alignItems: 'center',
+      color: '#000000ff',
+      height: '100vh',
     }}>
       <img src="/public/avatars/Home-Image.png" alt="White-whatsapp-home-image" style={{
         width: '30%',
-        height: 'auto' 
+        height: 'auto'
       }} />
       <h2 style={{
         flexGrow: 10,

@@ -1,6 +1,6 @@
 import React, { useEffect, useRef } from 'react'
 import Message from '../Message/Message.jsx'
-import './chatWindow.css' 
+import './chatWindow.css'
 
 function ChatWindow({ messages }) {
   const containerRef = useRef(null)
@@ -17,7 +17,7 @@ function ChatWindow({ messages }) {
         <p className="no-messages">No hay mensajes aún.</p>
       )}
       {messages.map((msg, i) => (
-        <Message key={i} from={msg.from} text={msg.text} time={msg.time}/>
+        <Message key={i} from={msg.from} text={msg.text} time={msg.time} />
       ))}
     </div>
   )

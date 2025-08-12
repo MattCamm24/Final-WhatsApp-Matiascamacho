@@ -31,61 +31,61 @@ export const chats = [
     messages: [
       { from: 'them', text: 'Amigoo, f5 hoy. Estas?', time: '09:00 a. m.' },
       { from: 'me', text: 'que ondaa', time: '09:05 a. m.' },
-      { from: 'me', text: 'sisi, estoy a partir de las 18', time: '09:06 a. m.'},
-      { from: 'them', text: 'joya amigo, te anoto. Jugas para mi eh ' , time: '09:10 a. m.' },
-      { from: 'me', text: 'jajaj dale, alto equipo hacemos!', time: '09:12 a. m.'},
+      { from: 'me', text: 'sisi, estoy a partir de las 18', time: '09:06 a. m.' },
+      { from: 'them', text: 'joya amigo, te anoto. Jugas para mi eh ', time: '09:10 a. m.' },
+      { from: 'me', text: 'jajaj dale, alto equipo hacemos!', time: '09:12 a. m.' },
     ]
   },
-    {
+  {
     id: '3',
     name: 'Gym bro 🦍',
     avatar: '../../../avatars/Gymbro.jpg',
     messages: [
       { from: 'me', text: 'Vamos al gimnasio?', time: '13:02 p. m.' },
       { from: 'them', text: 'Dale! hoy espalda?', time: '13:10 p. m.' },
-      { from: 'me', text: 'noo, hoy pierna', time: '13:15'},
-      { from: 'them', text: 'uuh, me habia olvidado que tengo...' , time: '13:17 p. m.' },
-      { from: 'me', text: 'No tenes nada che! piernas se entrena igual.', time: '13:20 p. m.'},
-      { from: 'me', text: '15hs en el gimnasio, no llegues tarde. ' , time: '13:24 p. m.' },
-      { from: 'them', text: 'bueno, a las 15 estoy 🙌' , time: '13:25 p. m.' },
+      { from: 'me', text: 'noo, hoy pierna', time: '13:15' },
+      { from: 'them', text: 'uuh, me habia olvidado que tengo...', time: '13:17 p. m.' },
+      { from: 'me', text: 'No tenes nada che! piernas se entrena igual.', time: '13:20 p. m.' },
+      { from: 'me', text: '15hs en el gimnasio, no llegues tarde. ', time: '13:24 p. m.' },
+      { from: 'them', text: 'bueno, a las 15 estoy 🙌', time: '13:25 p. m.' },
     ]
   },
-    {
+  {
     id: '4',
     name: 'Salvador 🤙',
     avatar: 'https://i.pravatar.cc/150?img=12',
     messages: [
       { from: 'them', text: 'Amigo, como estas?', time: '15:24 p. m.' },
       { from: 'me', text: 'Hola salva amigo', time: '16:00 p. m.' },
-      { from: 'me', text: 'Bien y vos?', time: '16:01 p. m.'},
-      { from: 'them', text: 'Bien amigo, me alegro ' , time: '16:25 p. m.' },
-      { from: 'me', text: 'Pinta asadito hoy con los pibes?', time: '16:30 p. m.'},
-      { from: 'them', text: 'see, de una!!' , time: '16:31 p. m.' },
-      { from: 'me', text: 'Ahi mando al grupo entonces' , time: '16:35 p. m.' },
+      { from: 'me', text: 'Bien y vos?', time: '16:01 p. m.' },
+      { from: 'them', text: 'Bien amigo, me alegro ', time: '16:25 p. m.' },
+      { from: 'me', text: 'Pinta asadito hoy con los pibes?', time: '16:30 p. m.' },
+      { from: 'them', text: 'see, de una!!', time: '16:31 p. m.' },
+      { from: 'me', text: 'Ahi mando al grupo entonces', time: '16:35 p. m.' },
     ]
   },
   {
-      id: '5',
+    id: '5',
     name: 'Faustino 🥇',
     avatar: '../../../avatars/Faustino.jpg',
     messages: [
       { from: 'them', text: 'Holaa, el finde hacemos algo?', time: '15:50 p. m.' },
       { from: 'me', text: 'Hola fausti, si amigo dale!', time: '16:52 p. m.' },
       { from: 'me', text: 'El sabado estoy', time: '16:53 p. m.' },
-      { from: 'me', text: 'Creo', time: '16:54 p. m.'},
-      { from: 'them', text: 'Dale! pidamos unas pizzas ' , time: '17:10 p. m.' },
-      { from: 'them', text: 'Algo para tomar despues', time: '17:11 p. m.'},
-      { from: 'them', text: 'Y despues nos quedamos jugando unos FIFA' , time: '17:11 p. m.' },
-      { from: 'me', text: 'uff, me encantó' , time: '17:15 p. m.'  },
-      { from: 'me', text: 'Dale si, yo voy' , time: '17:15 p. m.' },
+      { from: 'me', text: 'Creo', time: '16:54 p. m.' },
+      { from: 'them', text: 'Dale! pidamos unas pizzas ', time: '17:10 p. m.' },
+      { from: 'them', text: 'Algo para tomar despues', time: '17:11 p. m.' },
+      { from: 'them', text: 'Y despues nos quedamos jugando unos FIFA', time: '17:11 p. m.' },
+      { from: 'me', text: 'uff, me encantó', time: '17:15 p. m.' },
+      { from: 'me', text: 'Dale si, yo voy', time: '17:15 p. m.' },
       { from: 'them', text: 'Perfecto, ya sumamos unos cuantos', time: '17:20 p. m.' },
       { from: 'them', text: 'Podemos hacer un re torneito', time: '17:21 p. m.' },
-      { from: 'them', text: 'Si no me equivoco, si confirma Fer, somos 8', time: '17:22 p. m.' },  
-      { from: 'me', text: 'Que bueno amigo, somos una banda!!' , time: '17:25 p. m.' },    
-      { from: 'me', text: 'Llevo un fernet 🥂' , time: '17:26 p. m.' },
+      { from: 'them', text: 'Si no me equivoco, si confirma Fer, somos 8', time: '17:22 p. m.' },
+      { from: 'me', text: 'Que bueno amigo, somos una banda!!', time: '17:25 p. m.' },
+      { from: 'me', text: 'Llevo un fernet 🥂', time: '17:26 p. m.' },
     ]
   },
-    {
+  {
     id: '6',
     name: 'Sergio Mecanico',
     avatar: 'https://tradesmanskills.com/wp-content/uploads/how-to-become-a-mechanic-1200x628.jpg',
@@ -96,7 +96,7 @@ export const chats = [
       { from: 'me', text: 'joyaa, mañana paso', time: '10:05 a. m.' },
     ]
   },
-    {
+  {
     id: '7',
     name: 'Sofia',
     avatar: 'https://i.pravatar.cc/150?img=20',
@@ -109,7 +109,7 @@ export const chats = [
       { from: 'them', text: 'Dale 🧡', time: '14:13 p. m.' },
     ]
   },
-    {
+  {
     id: '8',
     name: 'Vecino',
     avatar: '../../../avatars/VECINO-THIAGO.jpg',

@@ -1,4 +1,4 @@
-# Proyecto: WhatsApp Web Clone
+# Proyecto: White WhatsApp Web
 
 ## Descripción del desafío
 Este proyecto es una réplica simplificada de la interfaz de WhatsApp Web, creada como ejercicio de práctica en React.
@@ -14,3 +14,5 @@ Incluye funciones básicas de visualización de chats, listado de conversaciones
 - Implementar correctamente la lógica en **JavaScript**, especialmente el cambio dinámico de conversaciones sin necesidad de un botón "volver".
 - Manejar y editar mensajes en el estado de la aplicación.
 - Filtrar chats en tiempo real con el buscador.
+## Dificultades encontradas
+- Responsive 
