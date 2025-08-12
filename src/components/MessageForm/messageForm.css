@@ -1,0 +1,32 @@
+.message-form {
+  display: flex;
+  gap: 8px;
+  padding: 10px;
+  border-top: 1px solid #eee;
+  align-items: center;
+}
+
+.message-input {
+  flex: 1;
+  padding: 10px 12px;
+  border-radius: 20px;
+  border: 1px solid #ddd;
+  outline: none;
+}
+
+.send-btn {
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  border: none;
+  cursor: pointer;
+  background: #25D366;
+  color: white;
+  font-weight: 700;
+}
+
+.attach-btn {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+}

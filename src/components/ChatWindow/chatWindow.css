@@ -1,0 +1,13 @@
+
+.chat-window {
+  flex: 1;
+  overflow-y: auto;
+  padding: 20px;
+  background-image: url('../../../public/avatars/istockphoto-1403848173-612x612.jpg');
+}
+
+.no-messages {
+  color: #666;
+  margin-top: 40px;
+  text-align: center;
+}
