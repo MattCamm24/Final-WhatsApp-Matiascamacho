@@ -76,7 +76,7 @@ height: 24px;
 }
 
 .chat-list-item:hover {
-    background: #f6f6f6;
+    background-color: #f6f6f6;
 }
 
 .chat-avatar {
@@ -109,4 +109,13 @@ border-radius: 20px;
 border: 1px solid #e0e0e0;
 font-size: 14px;
 margin: 0 10px;  
+}
+.header-actions .new-chat:hover{
+    background-color: rgba(0, 0, 0, 0.05);
+    border-radius: 50px;
+}
+
+.header-actions .menu-button:hover{
+background-color: rgba(0, 0, 0, 0.05);
+border-radius: 50px;
 }
