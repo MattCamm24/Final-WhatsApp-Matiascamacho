@@ -2,6 +2,8 @@ import React from "react";
 import "./Sidebar.css";
 
 export default function Sidebar() {
+
+    
     const shortcuts = [
         {
             key: "new",
@@ -75,6 +77,7 @@ export default function Sidebar() {
             </div>
             <div className="Profile">
                 <button className="Profile-btn">
+
 <img src="/avatars/Auto.jpg" alt="Profile-photo" />
                     <span className="tooltip-Profile">Perfil</span>
                 </button>
